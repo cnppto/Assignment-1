@@ -10,8 +10,7 @@ ${BROWSER}    chrome
  
 *** Test Cases ***
 Page Should Show My GitHub
-    [Documentation]    When visit the page it should show the text Hello GoogleScholar
-    Page Should Contain    About
+    Open Browser    ${FORM_URL}    ${BROWSER} 
  
 *** Keywords ***
 Open Browser And Go To Page
